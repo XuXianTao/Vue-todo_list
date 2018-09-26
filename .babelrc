@@ -5,5 +5,4 @@
   "plugins": [
     "transform-vue-jsx"
   ]
-  //"_comment": "vue react转化jsx有差异，需要插件来辅助一下"
 }

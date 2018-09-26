@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Header from './todo/header.vue'
-import Footer from './todo/footer.jsx'
-import Todo from './todo/todo.vue'
+import Header from './layout/header.vue'
+import Footer from './layout/footer.jsx'
+import Todo from './views/todo/todo.vue'
 export default {
   components: {//申明使用Header组件,注意别用成函数形式
     Header,//不用小写header，可能与原生html标签存在冲突，可能就不用模板了，用大小写区分也可以
@@ -31,7 +31,9 @@ export default {
   top 0
   right 0
   bottom 0
-  background-image url('./assets/images/bg.jpg')
+  background-image url('./assets/images/bg.png')
+  background-size cover
+  transform translateZ(0)
   #cover
     position absolute
     left 0
